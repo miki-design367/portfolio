@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color:#dddee0
+}
+h1{
+    font-family: "Lexend Exa", sans-serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: 86px;
+    text-align: center;
+    padding-top: 80px;
+}
+h2{
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+.emphasis_design20 span{
+    background: linear-gradient(transparent 50%,#eeefaf 50%);
+    padding:0 0.1em;
+}
+h3{
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+}
+header{
+    width: 100%;
+}
+.wave1{
+    background: url(images/header-wave2.svg)no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logo01 img{
+    width: 150px;
+    height: 150px;
+}
+.logo02{
+    padding-top: 32px;
+}
+main img{
+    width: 400px;
+    height: 300px;
+}
+.miki{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.miki02{
+    padding: 16px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+.item01 img,
+.item02 img {
+    width: 100%;
+    height: auto; /* 縦長を維持 */
+    max-height: 500px; /* 必要に応じて調整 */
+    object-fit: contain;
+}  
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .item01 img, .item02 img {
+        max-height: 400px; /* ちょっと縮小 */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
+    .item01 img, .item02 img {
+        max-height: 300px;
+    }
+}
+.gallery {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 10px;
+  }
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color:whitesmoke
+}
+.gallery p{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.profile{
+    padding: 80px;
+}
+.hp{
+    padding: 80px;
+}
+.banner{
+    padding: 80px;
+}
+aside{
+    padding: 80px;
+    height: 200px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.contact01 img{
+    width: 60px;
+    height: 60px;
+}
+.contact02 img{
+    width: 45px;
+    height: 45px;
+}
+footer{
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+}
+.wave2{
+    background: url(images/footer-wave2.svg)no-repeat center;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
