@@ -184,6 +184,9 @@ aside{
     height: 200px;
     text-align: center;
 }
+aside p{
+    padding-bottom:16px;
+}    
 .contact{
     display: flex;
     justify-content: center;
