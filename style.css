@@ -62,6 +62,19 @@ header{
     font-size: 3.0rem;
     font-weight: 600;
 }
+@media (max-width: 768px) {
+    .wave1{
+    background: url(images/header-wave2.svg)no-repeat center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+    }
+}    
 .logo{
     display: flex;
     align-content: center;
@@ -83,6 +96,7 @@ main img{
     justify-content: center;
     flex-wrap: wrap;
 }
+.miki01,
 .miki02{
     padding: 16px;
 }
