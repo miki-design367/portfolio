@@ -75,8 +75,8 @@ header{
     padding-top: 32px;
 }
 main img{
-    width: 400px;
-    height: 300px;
+    width: 320px;
+    height: 240px;
 }
 .miki{
     display: flex;
@@ -118,20 +118,27 @@ main img{
     }
 }
 .gallery {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:32px;
   }
 .gallery img {
-    width: 100%;
-    height: 200px;
+    width: 320px
+    height: 240px;
     object-fit: contain;
-    background-color:whitesmoke
+    background-color:#eeefaf;
 }
 .gallery p{
-    padding-left: 16px;
-    padding-right: 16px;
+    text-aline:center;
+    inline-size:320px;
+    overflow-wrap:break-word;
 }
+.box-desing8{
+    padding: 20px;
+    background-color: #eeefaf;
+    box-shadow: 5px -5px #a6a78c;
+}    
 .profile{
     padding: 80px;
 }
@@ -141,6 +148,11 @@ main img{
 .banner{
     padding: 80px;
 }
+@media (max-width: 768px) {
+    .banner{
+        padding:0px;
+    }
+}    
 aside{
     padding: 80px;
     height: 200px;
