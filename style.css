@@ -100,6 +100,10 @@ main img{
 .miki02{
     padding: 16px;
 }
+.hp p{
+    text-align: center;
+    padding-bottom: 16px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -161,6 +165,10 @@ main img{
 }
 .banner{
     padding: 80px;
+}
+.banner p{
+    text-align: center;
+    padding-bottom: 16px;
 }
 @media (max-width: 768px) {
     .banner{
