@@ -104,15 +104,19 @@ main img{
     text-align: center;
     padding-bottom: 16px;
 }
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 20px;
 }
-.item01 img,
-.item02 img {
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.hp img{
     width: 100%;
     height: auto; /* 縦長を維持 */
     max-height: 500px; /* 必要に応じて調整 */
