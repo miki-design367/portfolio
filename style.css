@@ -96,6 +96,10 @@ main img{
     text-align: center;
     padding-bottom: 16px;
 }
+.hp a{
+     text-decoration: none;
+     color:darkolivegreen;
+}
 .container1 {
     display: flex;
     justify-content: space-evenly;
