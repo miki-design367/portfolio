@@ -17,9 +17,9 @@ h1{
 @media (max-width: 768px) {
     h1{
     font-family: "Lexend Exa", sans-serif;
-    font-weight:400;
+    font-weight:500;
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     padding-top: 0;
     }
@@ -30,14 +30,6 @@ h2{
     padding: 30px;
     text-align: center;
 }
-@media (max-width: 768px) {
-    h2{
-    font-family: "Lexend Exa", sans-serif;
-    font-size: 30px;
-    padding: 30px;
-    text-align: center;
-    }
-}    
 .emphasis_design20 span{
     background: linear-gradient(transparent 50%,#eeefaf 50%);
     padding:0 0.1em;
