@@ -96,6 +96,11 @@ main img{
     text-align: center;
     padding-bottom: 16px;
 }
+@media (max-width: 768px) {
+    .hp p{
+        text-align:left;
+    }
+}
 .hp a{
      text-decoration: none;
      color:darkolivegreen;
