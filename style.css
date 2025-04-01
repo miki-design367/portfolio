@@ -206,6 +206,22 @@ aside p{
     width: 45px;
     height: 45px;
 }
+.fukidashi-01-12::before{
+    content:"";
+    width:30px;
+    height:2px;
+    transform: rotate(60deg);
+    box-sizing:border-box;
+    backgroud-color:#333333;
+}
+.fukidashi-01-12::after{
+    content:"";
+    width:30px;
+    height:2px;
+    transform: rotate(-60deg);
+    box-sizing:border-box;
+    backgroud-color:#333333;
+}
 footer{
     font-family: "Lexend Exa", sans-serif;
     text-align: center;
