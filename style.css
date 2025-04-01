@@ -212,7 +212,7 @@ aside p{
     height:2px;
     transform: rotate(60deg);
     box-sizing:border-box;
-    backgroud-color:#333333;
+    background-color:#333333;
 }
 .fukidashi-01-12::after{
     content:"";
@@ -220,7 +220,7 @@ aside p{
     height:2px;
     transform: rotate(-60deg);
     box-sizing:border-box;
-    backgroud-color:#333333;
+    background-color:#333333;
 }
 footer{
     font-family: "Lexend Exa", sans-serif;
