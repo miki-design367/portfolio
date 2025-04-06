@@ -124,51 +124,6 @@ main img{
     max-height: 500px; /* 必要に応じて調整 */
     object-fit: contain;
 }  
-
-button{
-  background:black;
-  color:#fff;
-  border:none;
-  position:relative;
-  height:32px;
-  width: 240px;
-  font-size:1.6em;
-  padding:0 2em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-}
-button:hover{
-  background:#fff;
-  color:black;
-}
-button:before,button:after{
-  content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  height:2px;
-  width:0;
-  background: black;
-  transition:400ms ease all;
-}
-button:after{
-  right:inherit;
-  top:inherit;
-  left:0;
-  bottom:0;
-}
-button:hover:before,button:hover:after{
-  width:100%;
-  transition:800ms ease all;
-}
-
-.button{
-  display: flex;
-  justify-content: center;
-  padding:40px 0;
-}
-
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
